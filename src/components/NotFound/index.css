@@ -1,0 +1,19 @@
+.not-found-image {
+  width: 100%;
+}
+
+.not-found-container {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-image {
+    width: 30%;
+  }
+}

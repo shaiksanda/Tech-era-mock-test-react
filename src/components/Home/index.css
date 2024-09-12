@@ -1,0 +1,94 @@
+.home-container {
+  background: linear-gradient(to right, #e0f7fa, #b2ebf2);
+  min-height: 78vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+}
+.heading {
+  margin: 4px 10px 30px 20px;
+  align-self: flex-start;
+  width: 100%;
+}
+
+.api-data-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 120px;
+  background-color: transparent;
+  cursor: pointer;
+  background-color: skyblue;
+  padding: 10px;
+  border-radius: 8px;
+  color: black;
+}
+
+.logo-container:hover {
+  transform: scale(1.06);
+  background-color: black;
+  color: white;
+}
+
+.name-heading {
+  font-size: 16px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.nav-item-link {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-container {
+    width: 200px;
+  }
+  .name-heading {
+    font-size: 22px;
+  }
+}
+
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+
+.failure-image {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-image {
+    width: 55%;
+  }
+}
+
+button {
+  width: 100px;
+  height: 35px;
+  border: none;
+  border-radius: 8px;
+  background-color: violet;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  transform: scale(1.05);
+}

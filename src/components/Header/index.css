@@ -1,0 +1,26 @@
+.header-container {
+  background: linear-gradient(to right, skyblue, dodgerblue);
+  padding: 10px 10px 10px 40px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.website-logo {
+  width: 150px;
+  cursor: pointer;
+}
+
+.website-logo:hover {
+  transform: scale(1.02);
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo {
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .website-logo {
+    width: 220px;
+  }
+}
